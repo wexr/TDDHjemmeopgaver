@@ -73,4 +73,9 @@ class BogTest {
         assertEquals(497, pris);
 
     }
+
+    @Test
+    void testFakeBogPrisEquals495() {
+
+    }
 }
