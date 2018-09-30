@@ -93,5 +93,12 @@ class BogTest {
     @Test
     void testStringAfBogEquals() {
 
+        //3. Arrange
+        Bog bog = new Bog();
+        //2. Act
+        String tekst = bog.toString();
+        //1. Assert
+        assertEquals("Navn på bog: NAVN, Forfatter: FORFATTER, Pris: PENGE", tekst);
+
     }
 }

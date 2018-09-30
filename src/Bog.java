@@ -37,4 +37,8 @@ public class Bog {
         this.price = price;
 
     }
+
+    public String toString(){
+        return "Navn på bog: NAVN, Forfatter: FORFATTER, Pris: PENGE";
+    }
 }
