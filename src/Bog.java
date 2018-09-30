@@ -2,6 +2,7 @@ public class Bog {
 
     private String title = "";
     private String author ="";
+    private int price = 0;
 
 
     public String getTitle() {
@@ -23,6 +24,10 @@ public class Bog {
     }
 
     public int getPrice() {
-        return 497;
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 }

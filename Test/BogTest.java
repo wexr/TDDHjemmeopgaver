@@ -65,6 +65,7 @@ class BogTest {
 
         //3. Arrange
         Bog bog = new Bog();
+        bog.setPrice(497);
 
         //2. Act
         int pris = bog.getPrice();
@@ -76,6 +77,16 @@ class BogTest {
 
     @Test
     void testFakeBogPrisEquals495() {
+
+        //3. Arrange
+        Bog bog = new Bog();
+        bog.setPrice(495);
+
+        //2. Act
+        int pris = bog.getPrice();
+
+        //1. Assert
+        assertEquals(495, pris);
 
     }
 }
