@@ -95,15 +95,24 @@ class BogTest {
 
         //3. Arrange
         Bog bog = new Bog();
+        bog.nyBog("NAVN", "FORFATTER", 0);
         //2. Act
         String tekst = bog.toString();
         //1. Assert
-        assertEquals("Navn på bog: NAVN, Forfatter: FORFATTER, Pris: PENGE", tekst);
+        assertEquals("Navn på bog: NAVN\n Forfatter: FORFATTER\n Pris: 0,-", tekst);
 
     }
 
     @Test
     void testFakeStringAfBogEquals() {
+        //3. Arrange
+        Bog bog = new Bog();
+        bog.nyBog("Java: how to program", "Deitel & Deitel", 497);
 
+        //2. Act
+        String tekst = bog.toString();
+
+        //1. Assert
+        assertEquals("Navn på bog: Java: how to program\n Forfatter: Deitel & Deitel\n Pris: 497,-", tekst);
     }
 }

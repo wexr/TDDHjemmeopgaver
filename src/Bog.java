@@ -39,6 +39,6 @@ public class Bog {
     }
 
     public String toString(){
-        return "Navn på bog: NAVN, Forfatter: FORFATTER, Pris: PENGE";
+        return "Navn på bog: " + this.title + "\n Forfatter: " + this.author + "\n Pris: " + this.price + ",-";
     }
 }
