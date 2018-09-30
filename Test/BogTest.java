@@ -44,4 +44,9 @@ class BogTest {
         assertEquals("Deitel & Deitel", author);
 
     }
+
+    @Test
+    void testFakeBogForfatterEqualsIvor() {
+
+    }
 }
