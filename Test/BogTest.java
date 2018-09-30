@@ -36,6 +36,7 @@ class BogTest {
     void testBogForfatterEqualsDeitel() {
         //3.
         Bog bog = new Bog();
+        bog.setAuthor("Deitel & Deitel");
 
         //2. act
         String author = bog.getAuthor();
@@ -47,6 +48,15 @@ class BogTest {
 
     @Test
     void testFakeBogForfatterEqualsIvor() {
+        //3. Arrange
+        Bog bog = new Bog();
+        bog.setAuthor("Ivor Horton");
+
+        //2. Act
+        String author = bog.getAuthor();
+
+        //1. Assert
+        assertEquals("Ivor Horton", author);
 
     }
 }

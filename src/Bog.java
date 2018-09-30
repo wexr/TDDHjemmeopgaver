@@ -1,6 +1,7 @@
 public class Bog {
 
     private String title = "";
+    private String author ="";
 
 
     public String getTitle() {
@@ -12,13 +13,12 @@ public class Bog {
     }
 
 
-
-    public String title() {
-        return "Java: how to program";
+    public String getAuthor() {
+        return author;
     }
 
+    public void setAuthor(String author) {
 
-    public String getAuthor() {
-        return "Deitel & Deitel";
+        this.author = author;
     }
 }
