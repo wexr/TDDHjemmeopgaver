@@ -59,4 +59,9 @@ class BogTest {
         assertEquals("Ivor Horton", author);
 
     }
+
+    @Test
+    void testBogPrisEquals497() {
+
+    }
 }
