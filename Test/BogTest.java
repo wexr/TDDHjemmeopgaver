@@ -89,4 +89,9 @@ class BogTest {
         assertEquals(495, pris);
 
     }
+
+    @Test
+    void testStringAfBogEquals() {
+
+    }
 }

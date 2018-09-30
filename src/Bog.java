@@ -30,4 +30,11 @@ public class Bog {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    public void bog(String title, String author, int price){
+        this.title = title;
+        this.author = author;
+        this.price = price;
+
+    }
 }
