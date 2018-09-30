@@ -10,10 +10,15 @@ class BogTest {
         Bog bog = new Bog();
 
         //2. Act
-        String titel = bog.title();
+        String title = bog.title();
 
         //1 Assert
-        assertEquals("Java: how to program", titel);
+        assertEquals("Java: how to program", title);
+
+    }
+
+    @Test
+    void testFakeBogTitleEqualsBeginning() {
 
     }
 }
