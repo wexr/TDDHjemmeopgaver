@@ -31,7 +31,7 @@ public class Bog {
         this.price = price;
     }
 
-    public void bog(String title, String author, int price){
+    public void nyBog(String title, String author, int price){
         this.title = title;
         this.author = author;
         this.price = price;
