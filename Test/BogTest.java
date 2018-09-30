@@ -31,4 +31,9 @@ class BogTest {
         assertEquals("Beginning Java 2", title);
 
     }
+
+    @Test
+    void testBogForfatterEqualsDeitel() {
+
+    }
 }

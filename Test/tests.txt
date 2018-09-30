@@ -1,2 +1,7 @@
 Test bog title => title = Java
 Test af fake title = > title = Beginning
+
+Test forfatter => name = Deitel & Deitel
+test af fake forfatter => name = Ivor Horton
+Test pris => pris = 497,-
+tesf af fake pris => pris = 495,-
