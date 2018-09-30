@@ -101,4 +101,9 @@ class BogTest {
         assertEquals("Navn på bog: NAVN, Forfatter: FORFATTER, Pris: PENGE", tekst);
 
     }
+
+    @Test
+    void testFakeStringAfBogEquals() {
+
+    }
 }
