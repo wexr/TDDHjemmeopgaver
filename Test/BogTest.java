@@ -63,5 +63,14 @@ class BogTest {
     @Test
     void testBogPrisEquals497() {
 
+        //3. Arrange
+        Bog bog = new Bog();
+
+        //2. Act
+        int pris = bog.getPrice();
+
+        //1. Assert
+        assertEquals(497, pris);
+
     }
 }

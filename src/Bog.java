@@ -21,4 +21,8 @@ public class Bog {
 
         this.author = author;
     }
+
+    public int getPrice() {
+        return 497;
+    }
 }
