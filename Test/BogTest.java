@@ -34,6 +34,14 @@ class BogTest {
 
     @Test
     void testBogForfatterEqualsDeitel() {
+        //3.
+        Bog bog = new Bog();
+
+        //2. act
+        String author = bog.getAuthor();
+
+        //1. Assert
+        assertEquals("Deitel & Deitel", author);
 
     }
 }

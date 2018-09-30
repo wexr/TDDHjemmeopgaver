@@ -18,4 +18,7 @@ public class Bog {
     }
 
 
+    public String getAuthor() {
+        return "Deitel & Deitel";
+    }
 }
